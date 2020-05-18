@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.8">
+	<name>Shoutcast Molok Extended</name>
+	<author>fungkur</author>
+	<creationDate>April 2006</creationDate>
+	<copyright>(C) 2005 Molok</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>fungkur@yahoo.com</authorEmail>
+	<authorUrl>www.fungkurs-network.net</authorUrl>
+	<version>1.0.8</version>
+	<description><![CDATA[
+	<div align="left"><img src="http://fungkurs-network.net/images/shoutcastmolokextended.gif"  /></div>
+	<h2>Shoutcast Molok Extended&nbsp;</h2>
+	Shoutcast Molok Extended is a module for radio shoutcast. 
+	<br/>Features: 
+	  <ul>
+	  <li>Configure your Radio Station name,</li>
+	  <li>Configure your host IP or Domain,</li>
+	  <li>Configure your port, which your ShoutCast is using,</li>
+	  <li>Change the module interface to your language,</li>
+	  <li>Links autoplay with WinAmp, Window Media Player, Real Player or iTunes</li>
+	  </ul><br/>
+	  <strong>Credit to Molok!</strong><br/>
+	  <strong>This is a extended Version of Shoutcast Molok Module by Arnold Wender</strong><br/>
+	  <strong>Visit <a href="http://www.mundobizarro.org" target="_blank">Mundo Bizarro </a></strong><br/>
+	  <strong>Visit <a href="http://www.fungkurs-network.net/joomla/" target="_blank">fungkur's Network </a></strong><br/>
+	]]></description>
+	<files>
+		<filename module="mod_shoutcastextended">mod_shoutcastextended.php</filename>
+		<filename>mod_shoutcastextended/winamp.gif</filename>
+		<filename>mod_shoutcastextended/wmplayer.gif</filename>
+		<filename>mod_shoutcastextended/realplayer.gif</filename>
+		<filename>mod_shoutcastextended/itunes.gif</filename>
+		<filename>mod_shoutcastextended/listen.ram</filename>
+		<filename>mod_shoutcastextended/listen.asx</filename>
+		<filename>mod_shoutcastextended/listen.m3u</filename>
+        </files>
+	<params>
+	  <param name="radioname" type="text" default="FungKur.FM" label="radioname" description="-" />
+	  <param name="host" type="text" default="fungkurfm.mine.nu" label="host" description="-" />
+	  <param name="port" type="text" default="8000" label="port" description="-" />
+          <param name="@spacer" type="spacer" default="" label="" description="" />
+	  <param name="listener" type="text" default="Listener" label="listener" description="Translate 'Listener' to your language" />
+	  <param name="from" type="text" default="from" label="from" description="Translate 'from' to your language" />
+	  <param name="peakmenu" type="text" default="Peak" label="peakmenu" description="Translate 'Peak' to your language" />
+	  <param name="serverstatus" type="text" default="Server Status" label="serverstatus" description="Translate 'Server Status' to your language" />
+	  <param name="currentsong" type="text" default="Current Song" label="currentsong" description="Translate 'Current Song' to your language" />
+        </params>
+</mosinstall>
