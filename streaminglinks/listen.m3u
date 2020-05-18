@@ -1,0 +1,9 @@
+Content-Type: audio/mpegurl;
+	name="listen.m3u"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename="listen.m3u"
+
+#EXTM3U
+#EXTINF:-1,YOURRADIONAME
+http://YOURHIPADDRESS:PORT/
